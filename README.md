@@ -23,6 +23,8 @@ Amazon EC2 (Elastic Compute Cloud) allows users to launch and manage virtual mac
 - Took and restored Snapshots for backup and disaster recovery
 - Set up Auto Scaling Groups (ASG) and Load Balancers (ELB) to ensure high availability
 
+🔗 [`Explore EC2 Project`](./Elastic%20SCompute%20Cloud%20(EC2).pdf)
+
 ---
 
 ### 2. 🗃️ S3: Simple Storage Service
@@ -45,35 +47,47 @@ Amazon S3 (Simple Storage Service) provides scalable and secure object storage. 
 ### 3. 📢 SNS: Simple Notification Service
 > **Send Real-Time Alerts**
 
-- Create topics and subscribe via Email/SMS
-- Confirm subscriptions securely
-- Publish and broadcast messages
-- Manage topics and recipients
+Amazon SNS (Simple Notification Service) is a messaging service for application-to-person (A2P) communication. This module explored how to send alerts to users instantly.
 
-🔗 [`Explore SNS Project`](./SNS_Project/README.md)
+**Key Highlights:**
+- Created **SNS Topics** and **subscriptions** (email and SMS)
+- Verified and confirmed subscriptions securely
+- Published messages from console and CLI
+- Understood the working of **pub-sub architecture**
+- Practiced cleaning up unused topics and subscriptions to manage costs
+
+🔗 [`Explore SNS Project`](./Simple%20Notification%20Service%20(SNS).pdf)
 
 ---
 
 ### 4. 📬 SQS: Simple Queue Service
 > **Message Queue for Decoupled Systems**
 
-- Set up Standard Queues
-- Connect SQS with SNS (Pub/Sub Model)
-- Use SQS as trigger for AWS Lambda
-- Send, receive, and delete messages
+Amazon SQS (Simple Queue Service) allows decoupling of application components using message queues. This module helped simulate asynchronous processing.
 
-🔗 [`Explore SQS Project`](./SQS_Project/README.md)
+**Key Highlights:**
+- Created **Standard Queues** to send and receive messages
+- Connected **SNS Topics with SQS** for real-time delivery
+- Simulated a **Pub/Sub system** using SNS + SQS
+- Used SQS as a trigger for **AWS Lambda functions**
+- Learned to manage, purge, and delete queues effectively
+
+🔗 [`Explore SQS Project`](./Simple%20Queue%20Service%20(SQS).pdf)
 
 ---
 
 ### 5. 🛡️ IAM: Identity & Access Management
 > **Secure Access Control in AWS**
 
-- Create IAM users, groups, and roles
-- Assign permissions via custom policies
-- Implement least privilege access
-- Test secure EC2 & SNS access
+AWS IAM (Identity and Access Management) allows you to control access to AWS resources securely. This module was essential for learning how to work in a secure AWS environment.
 
-🔗 [`Explore IAM Project`](./IAM_Project/README.md)
+**Key Highlights:**
+- Created **IAM Users**, **Groups**, and **Roles**
+- Assigned both **AWS-managed** and **custom policies**
+- Tested user permissions for services like EC2 and SNS
+- Implemented **least privilege access** best practices
+- Practiced **IAM cleanup** by removing inactive users and policies
+
+🔗 [`Explore IAM Project`](./Identity%20and%20Access%20Management%20(IAM).pdf)
 
 ---
