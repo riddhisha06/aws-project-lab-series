@@ -23,7 +23,7 @@ Amazon EC2 (Elastic Compute Cloud) allows users to launch and manage virtual mac
 - Took and restored Snapshots for backup and disaster recovery
 - Set up Auto Scaling Groups (ASG) and Load Balancers (ELB) to ensure high availability
 
-🔗 [`Explore EC2 Project`](./Elastic%20SCompute%20Cloud%20(EC2).pdf)
+🔗 [`Explore EC2 Project`](./Elastic%20Compute%20Cloud%20(EC2).pdf)
 
 ---
 
