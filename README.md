@@ -15,34 +15,30 @@ Explore my journey through AWS, covering five core modules essential to modern c
 
 Amazon EC2 (Elastic Compute Cloud) allows users to launch and manage virtual machines in the cloud. In this module, I worked with both Amazon Linux and Windows instances.
 
-Key Highlights:
-
-Launched and configured Linux and Windows servers
-
-Installed and hosted websites using Apache and IIS
-
-Created and used custom AMIs for faster deployments
-
-Attached additional EBS Volumes for persistent storage
-
-Took and restored Snapshots for backup and disaster recovery
-
-Set up Auto Scaling Groups (ASG) and Load Balancers (ELB) to ensure high availability
-
-🔗 [`Explore EC2 Project`]
+**Key Highlights:**
+- Launched and configured Linux and Windows servers
+- Installed and hosted websites using Apache and IIS
+- Created and used custom AMIs for faster deployments
+- Attached additional EBS Volumes for persistent storage
+- Took and restored Snapshots for backup and disaster recovery
+- Set up Auto Scaling Groups (ASG) and Load Balancers (ELB) to ensure high availability
 
 ---
 
 ### 2. 🗃️ S3: Simple Storage Service
 > **Store, Protect & Deliver Objects**
 
-- Create & configure S3 buckets
-- Manage public/private access
-- Upload, version & retrieve files
-- Generate presigned URLs for secure access
-- Use storage classes to reduce costs
+Amazon S3 (Simple Storage Service) provides scalable and secure object storage. This module focused on storing, accessing, and securing static and dynamic files.
 
-🔗 [`Explore S3 Project`](./S3_Project/README.md)
+**Key Highlights:**
+- Created multiple **S3 Buckets** with specific configurations
+- Managed access permissions (public, private, and IAM-based)
+- Enabled **Versioning** to track file changes
+- Generated **Presigned URLs** for temporary secure file sharing
+- Changed **storage classes** (Standard, IA, Glacier) for cost optimization
+- Explored **Static Website Hosting** directly from S3
+
+🔗 [`Explore S3 Project`](./SimpleStorageService(S3).pdf)
 
 ---
 
