@@ -13,11 +13,21 @@ Explore my journey through AWS, covering five core modules essential to modern c
 ### 1. 🖥️ EC2: Elastic Compute Cloud
 > **Launch, Host & Scale Virtual Servers**
 
-- Launch Amazon Linux & Windows EC2 Instances
-- Host web apps using Apache (Linux) & IIS (Windows)
-- Create, copy & use custom AMIs
-- Attach/manage EBS volumes & Snapshots (across regions)
-- Configure **Auto Scaling Groups** & **Load Balancers**
+Amazon EC2 (Elastic Compute Cloud) allows users to launch and manage virtual machines in the cloud. In this module, I worked with both Amazon Linux and Windows instances.
+
+Key Highlights:
+
+Launched and configured Linux and Windows servers
+
+Installed and hosted websites using Apache and IIS
+
+Created and used custom AMIs for faster deployments
+
+Attached additional EBS Volumes for persistent storage
+
+Took and restored Snapshots for backup and disaster recovery
+
+Set up Auto Scaling Groups (ASG) and Load Balancers (ELB) to ensure high availability
 
 🔗 [`Explore EC2 Project`]
 
