@@ -19,7 +19,7 @@ Explore my journey through AWS, covering five core modules essential to modern c
 - Attach/manage EBS volumes & Snapshots (across regions)
 - Configure **Auto Scaling Groups** & **Load Balancers**
 
-🔗 [`Explore EC2 Project`](./EC2_Project/README.md)
+🔗 [`Explore EC2 Project`](/Elastic Compute Cloud.pdf)
 
 ---
 
