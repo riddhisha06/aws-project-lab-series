@@ -38,7 +38,7 @@ Amazon S3 (Simple Storage Service) provides scalable and secure object storage. 
 - Changed **storage classes** (Standard, IA, Glacier) for cost optimization
 - Explored **Static Website Hosting** directly from S3
 
-🔗 [`Explore S3 Project`](./SimpleStorageService(S3).pdf)
+🔗 [`Explore S3 Project`](./https://github.com/riddhisha06/aws-project-lab-series/blob/main/Simple%20Storage%20Service%20(S3).pdf)
 
 ---
 
