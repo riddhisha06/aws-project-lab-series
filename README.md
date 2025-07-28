@@ -91,3 +91,20 @@ AWS IAM (Identity and Access Management) allows you to control access to AWS res
 🔗 [`Explore IAM Project`](./Identity%20and%20Access%20Management%20(IAM).pdf)
 
 ---
+
+### 6. 🌐 VPC: Virtual Private Cloud
+> **Design & Control Your Own Network in the Cloud**
+
+Amazon VPC (Virtual Private Cloud) lets you create a logically isolated section of the AWS cloud where you can launch AWS resources in a virtual network you define. In this module, I built and managed custom network infrastructure with complete control over IP range, subnets, route tables, and gateways.
+
+**Key Highlights:**
+- Created a custom **VPC** with defined **CIDR blocks**
+- Added multiple **Subnets (Public & Private)** across different Availability Zones
+- Configured **Route Tables** to manage traffic flow
+- Attached and configured an **Internet Gateway** for public access
+- Created and tested **Security Groups** and **Network ACLs**
+- Launched **EC2 instances** inside the VPC and verified connectivity  
+
+🔗 [`Explore VPC Project`](./Virtual%20Private%20Cloud%20(VPC).pdf)
+
+---
